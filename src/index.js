@@ -13,13 +13,13 @@ const CoinIcon = React.forwardRef(({ symbol, type, ...props }, ref) => {
     )
   } else {
     if (type === 1) {
-      return <Growth ref={ref} width="1em" height="1em" {...props} />
+      return <Growth width="1em" height="1em" {...props} ref={ref} />
     } else if (type === 2) {
-      return <Interest ref={ref} width="1em" height="1em" {...props} />
+      return <Interest width="1em" height="1em" {...props} ref={ref} />
     } else if (type === 3) {
-      return <Stable ref={ref} width="1em" height="1em" {...props} />
+      return <Stable width="1em" height="1em" {...props} ref={ref} />
     } else {
-      return <Interest ref={ref} width="1em" height="1em" {...props} />
+      return <Interest width="1em" height="1em" {...props} ref={ref} />
     }
   }
 });

@@ -13,14 +13,16 @@ Link to token registry: [tokens.ooo](https://tokens.ooo/)
 ## Required packages:
  - react
 
-## Props*
+## Props
 
 | Props name | Type | Descriprion |
 | ------ | ------ | ------ |
 | symbol | string | Token name |
 | type | number | 1 - for growth; 2 - for interest; 3 - for stable |
 
-This component support all SVG props
+`type` is optional if the `symbol` is known, it is used as fallback to choose the type of the default icon when `symbol`'s icon is not found in this library.
+
+This component supports all SVG props.
 
  
 ## Example

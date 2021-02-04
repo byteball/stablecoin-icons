@@ -1,0 +1,37 @@
+import { ReactComponent as GRB } from "./icons/BTC/GRB.svg";
+import { ReactComponent as IBIT } from "./icons/BTC/IBIT.svg";
+import { ReactComponent as OBIT } from "./icons/BTC/OBIT.svg";
+
+import { ReactComponent as GRETH } from "./icons/ETH/GRETH.svg";
+import { ReactComponent as ITH } from "./icons/ETH/ITH.svg";
+import { ReactComponent as OETH } from "./icons/ETH/OETH.svg";
+
+import { ReactComponent as GRGB } from "./icons/GBYTE/GRGB.svg";
+import { ReactComponent as IGB } from "./icons/GBYTE/IGB.svg";
+import { ReactComponent as OGB } from "./icons/GBYTE/OGB.svg";
+
+import { ReactComponent as GRAU } from "./icons/GOLD/GRAU.svg";
+import { ReactComponent as IAU } from "./icons/GOLD/IAU.svg";
+import { ReactComponent as OAU } from "./icons/GOLD/OAU.svg";
+
+import { ReactComponent as GRD } from "./icons/USD/GRD.svg";
+import { ReactComponent as IUSD } from "./icons/USD/IUSD.svg";
+import { ReactComponent as OUSD } from "./icons/USD/OUSD.svg";
+
+export const iconList = {
+  GRB,
+  IBIT,
+  OBIT,
+  GRETH,
+  ITH,
+  OETH,
+  GRGB,
+  IGB,
+  OGB,
+  GRAU,
+  IAU,
+  OAU,
+  GRD,
+  IUSD,
+  OUSD
+}

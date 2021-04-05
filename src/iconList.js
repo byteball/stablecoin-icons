@@ -14,6 +14,10 @@ import { ReactComponent as GRAU } from "./icons/GOLD/GRAU.svg";
 import { ReactComponent as IAU } from "./icons/GOLD/IAU.svg";
 import { ReactComponent as OAU } from "./icons/GOLD/OAU.svg";
 
+import { ReactComponent as GRAG } from "./icons/SILVER/GRAG.svg";
+import { ReactComponent as IAG } from "./icons/SILVER/IAG.svg";
+import { ReactComponent as OAG } from "./icons/SILVER/OAG.svg";
+
 import { ReactComponent as GRD } from "./icons/USD/GRD.svg";
 import { ReactComponent as IUSD } from "./icons/USD/IUSD.svg";
 import { ReactComponent as OUSD } from "./icons/USD/OUSD.svg";
@@ -31,6 +35,9 @@ export const iconList = {
   GRAU,
   IAU,
   OAU,
+  GRAG,
+  IAG,
+  OAG,
   GRD,
   IUSD,
   OUSD

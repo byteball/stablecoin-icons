@@ -23,22 +23,34 @@ import { ReactComponent as IUSD } from "./icons/USD/IUSD.svg";
 import { ReactComponent as OUSD } from "./icons/USD/OUSD.svg";
 
 export const iconList = {
-  GRB,
-  IBIT,
-  OBIT,
-  GRETH,
-  ITH,
-  OETH,
-  GRGB,
-  IGB,
-  OGB,
-  GRAU,
-  IAU,
-  OAU,
-  GRAG,
-  IAG,
-  OAG,
-  GRD,
-  IUSD,
-  OUSD
+  BTC: {
+    GRB,
+    IBIT,
+    OBIT
+  },
+  ETH: {
+    GRETH,
+    ITH,
+    OETH
+  },
+  GBYTE: {
+    GRGB,
+    IGB,
+    OGB
+  },
+  GOLD: {
+    GRAU,
+    IAU,
+    OAU
+  },
+  SILVER: {
+    GRAG,
+    IAG,
+    OAG
+  },
+  USD: {
+    GRD,
+    IUSD,
+    OUSD
+  }
 }
